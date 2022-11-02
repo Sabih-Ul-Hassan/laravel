@@ -14,7 +14,7 @@ alert("'.$message.'")
         @error('username') <p> add username <p> @enderror
     </div>
     <div class="offset-md-3 col-md-6 offset-lg-4 col-lg-4">
-        <input type="text" name='password' class="form-control" placeholder=password>
+        <input type="password" name='password' class="form-control" placeholder=password>
         @error('password') <p> add password <p> @enderror
     </div>
 </div>
